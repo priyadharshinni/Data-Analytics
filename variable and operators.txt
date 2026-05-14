@@ -1,0 +1,74 @@
+single variable
+1. integer: x=5,8
+2. float: x=3.98
+3. Boolean: x=true
+4. complex: x=3+9j
+5. string: x='hi'
+
+Multi variable
+1.list: x=["apple", "banana", "pineapple"]
+2.tuple: x=("apple", "banana", "pineapple")
+3.set: x={"apple", "banana", "pineapple"}
+4.dictionary: x={"x" ="apple", "y" ="banana", "z" ="pineapple"}
+
+Operators
+1. Arithmetic operators: 
+x =6
+y =5
+Add: print(x + y) ; result = 11
+sub: print(x - y) : result = 1
+Multiple: print(x * y) ; result = 30
+divided: print(x / y) ; result = 1.2
+modulus: print(x % y) ; result = 1
+Exponentiation: print(x ** y) result = 7776 
+Floor division: print(x//y) result = 1  
+
+2. Assignment operators:
+   x=4 
+Assignment(=)
+addition Assignment(+=) :          x+= 3   print(x)    result: 7
+Subtraction Assignment(-=) :       x-= 3   print(x)    result: 1
+Multiplication Assignment(*=) :    x*= 3   print(x)    result: 12
+Division Assignment(/=) :          x/= 3   print(x)    result: 1.33
+Modulus Assignment(%=) :           x%= 3   print(x)    result: 1
+Floor Division Assignment(//=) :   x//= 3  print(x)    result: 1
+Exponentiation Assignment(**=) :   x**= 3  print(x)    result: 64
+
+3. Comparison operators: 
+    X = 5
+    Y = 3
+Equal to(==):                      x == y   print(x == y)   result: False
+Not Equal to(!=):                  x != y   print(x =! y)   result: True
+Greater than(>):                   x > y    print(x > y)    result: True
+Less than(<):                      x < y    print(x < y)    result: False
+Greater than or equal to(>=):      x >= y   print(x >= y)   result: Ture
+Less than or equal to(<=):         x <= y   print(x <= y)   result: False
+
+4. Logical operators: 
+ a) and: X = 5  print(x >0 and x < 10)        result: True
+ b) or:  X = 5  print(x < 5 or x > 10)        result: False
+ c) not: X = 5  print(not(x > 3 and x < 10))  result: False
+    [Note:(1=true, 0=false)]
+
+5. Identity operators: 
+ a) is:
+     x = ["apple", "banana"]    print(x is z)   result: True
+     y = ["apple", "banana"]    print(x is y)   result: False
+     z = x                      print(x == y)   result: True
+ b)is not:
+     x = ["apple", "banana"]    print(x is not y)  result: True
+     y = ["apple", "banana"]
+     {(is = true if both variables are the same object) (is not = true if both variables are not the same object)}
+
+6. Membership operators: 
+ a) in:      fruits = ["apple", "banana", "cherry"]   print("apple" in fruit)       result: True
+ b) not in:  fruits = ["apple", "banana", "cherry"]   print("banana" in not fruit)  result: False
+    {similarly to identity operators}
+
+7. Bitwise operators: 
+ a) AND
+ b) OR
+ c) XOR
+ d) NOT 
+ e) Zero fill left shift 
+ f) Signed right shift. 
